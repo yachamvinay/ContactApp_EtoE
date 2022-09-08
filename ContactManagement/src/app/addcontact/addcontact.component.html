@@ -1,0 +1,14 @@
+
+<form [formGroup]="contactForm" class="example-container" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+      <input matInput formControlName="conname" placeholder="name">
+    </mat-form-field>
+  
+    <mat-form-field>
+      <input matInput  formControlName="phnumber" placeholder="Phone number"> 
+    </mat-form-field>
+  
+    <button type="submit" mat-raised-button color="primary">Submit</button>
+</form>
+
+<router-outlet></router-outlet>

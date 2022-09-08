@@ -1,0 +1,26 @@
+<div class="align-center">
+    <h2>Registration</h2>
+    <form [formGroup]="registration" (ngSubmit)="onSubmit()">
+     <div class="example-container">
+         <mat-form-field>
+             <input matInput  formControlName="firstname" placeholder="First Name">
+           </mat-form-field>
+           <mat-form-field>
+               <input matInput  formControlName="lastname" placeholder="Last Name" required>
+               
+             </mat-form-field>
+           <mat-form-field>
+               <input matInput  formControlName="username" placeholder="User Name" >
+               
+             </mat-form-field>
+             <mat-form-field>
+               <input matInput  formControlName="password" placeholder="Password" required>
+               
+             </mat-form-field>
+           
+       
+            
+               <button type="submit" mat-raised-button color="primary">Register</button>
+       </div>
+   </form>
+</div>

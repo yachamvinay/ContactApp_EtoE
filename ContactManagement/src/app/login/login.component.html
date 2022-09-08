@@ -1,0 +1,22 @@
+<div class="align-center">
+    <h2>Login</h2>
+    <form [formGroup]="login" class="example-container" (ngSubmit)="onSubmit()">
+     <div class="example-container">
+         <mat-form-field>
+             <input matInput placeholder="User Name" formControlName="uname">
+           </mat-form-field>
+           <mat-form-field>
+               <input matInput placeholder="Password" formControlName="pass">
+               
+             </mat-form-field>
+           
+           
+       
+            
+               <button type="submit" mat-raised-button color="primary">Login</button>
+
+             
+       </div>
+   </form>
+   <p>if not registerd please register  By clicking on link <a [routerLink]="['/register' ]" >Register</a></p>
+</div>
