@@ -1,0 +1,5 @@
+*.java linguist-detectable=true
+*.js linguist-detectable=true
+*.html linguist-detectable=true
+*.typescript linguist-detectable=false
+*.angularJS linguist-detectable=true
