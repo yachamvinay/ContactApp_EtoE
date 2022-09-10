@@ -1,6 +1,7 @@
 *.java linguist-detectable=true
 *.js linguist-detectable=true
 *.html linguist-detectable=true
-*.typescript linguist-detectable=false
+*.typescript linguist-detectable=true
 *.Angularjs linguist-detectable=true
 *.SpringBoot linguist-detectable=true
+*.xml linguist-detectable=true
