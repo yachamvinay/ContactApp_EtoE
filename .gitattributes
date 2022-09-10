@@ -3,3 +3,4 @@
 *.html linguist-detectable=true
 *.typescript linguist-detectable=false
 *.Angularjs linguist-detectable=true
+*.SpringBoot linguist-detectable=true
