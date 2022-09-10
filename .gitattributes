@@ -2,4 +2,4 @@
 *.js linguist-detectable=true
 *.html linguist-detectable=true
 *.typescript linguist-detectable=false
-*.angularJS linguist-detectable=true
+*.Angularjs linguist-detectable=true
